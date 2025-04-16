@@ -1,19 +1,2 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Configuration.Install;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace WcfServiceLibrary.WindowsServiceHost
-{
-    [RunInstaller(true)]
-    public partial class ProjectInstaller : System.Configuration.Install.Installer
-    {
-        public ProjectInstaller()
-        {
-            InitializeComponent();
-        }
-    }
-}
+// This file is no longer needed for .NET 8.0 Windows Services
+// The service configuration will be done in the Program.cs file
