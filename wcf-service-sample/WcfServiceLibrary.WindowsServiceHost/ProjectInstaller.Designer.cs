@@ -1,4 +1,4 @@
-namespace WcfServiceLibrary.WindowsServiceHost
+﻿namespace WcfServiceLibrary.WindowsServiceHost
 {
     partial class ProjectInstaller
     {
@@ -28,30 +28,32 @@ namespace WcfServiceLibrary.WindowsServiceHost
         /// </summary>
         private void InitializeComponent()
         {
+            this.serviceProcessInstaller1 = new System.ServiceProcess.ServiceProcessInstaller();
             this.serviceInstaller1 = new System.ServiceProcess.ServiceInstaller();
-            this.serviceInstaller2 = new System.ServiceProcess.ServiceInstaller();
-            //
+            // 
+            // serviceProcessInstaller1
+            // 
+            this.serviceProcessInstaller1.Account = System.ServiceProcess.ServiceAccount.LocalSystem;
+            this.serviceProcessInstaller1.Password = null;
+            this.serviceProcessInstaller1.Username = null;
+            // 
             // serviceInstaller1
-            //
+            // 
+            this.serviceInstaller1.Description = "Wcf Service Sample";
             this.serviceInstaller1.ServiceName = "WcfServiceSample";
-            //
-            // serviceInstaller2
-            //
-            this.serviceInstaller2.Description = "Wcf Service Sample";
-            this.serviceInstaller2.ServiceName = "WcfServiceSample";
-            this.serviceInstaller2.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
-            //
+            this.serviceInstaller1.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
+            // 
             // ProjectInstaller
-            //
+            // 
             this.Installers.AddRange(new System.Configuration.Install.Installer[] {
-            this.serviceInstaller1,
-            this.serviceInstaller2});
+            this.serviceProcessInstaller1,
+            this.serviceInstaller1});
 
         }
 
         #endregion
 
+        private System.ServiceProcess.ServiceProcessInstaller serviceProcessInstaller1;
         private System.ServiceProcess.ServiceInstaller serviceInstaller1;
-        private System.ServiceProcess.ServiceInstaller serviceInstaller2;
     }
 }
