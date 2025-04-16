@@ -1,32 +1,19 @@
-using System;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Configuration.Install;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 
 namespace WcfServiceLibrary.WindowsServiceHost
 {
-    public partial class ProjectInstaller
+    [RunInstaller(true)]
+    public partial class ProjectInstaller : System.Configuration.Install.Installer
     {
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .UseWindowsService()
-                .ConfigureServices((hostContext, services) =>
-                {
-                    services.AddHostedService<Worker>();
-                });
-    }
-
-    public class Worker : BackgroundService
-    {
-        protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+        public ProjectInstaller()
         {
-            while (!stoppingToken.IsCancellationRequested)
-            {
-                // Your service logic here
-                await Task.Delay(1000, stoppingToken);
-            }
+            InitializeComponent();
         }
     }
 }
