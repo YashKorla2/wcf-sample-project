@@ -1,0 +1,474 @@
+==========
+References
+==========
+WcfServiceLibrary
+System.ServiceModel
+System.Runtime.Serialization
+System.Reflection
+System.Runtime.InteropServices
+System
+System.Collections.Generic
+System.Linq
+System.Text
+System.Runtime.CompilerServices
+CoreWCF
+CoreWCF.Channels
+CoreWCF.Security
+CoreWCF.Dispatcher
+CoreWCF.Description
+CoreWCF.Diagnostics
+CoreWCF.Security.Token
+CoreWCF.IdentityModel
+CoreWCF.IdentityModel.Tokens
+CoreWCF.IdentityModel.Claims
+CoreWCF.IdentityModel.Policy
+CoreWCF.IdentityModel.Selectors
+CoreWCF.IdentityModel.Services.Tokens
+CoreWCF.Configuration
+CoreWCF.Web
+CoreWCF.ServiceLibrary.Project
+project.all
+WcfServiceLibrary.SampleHost.ServiceReference1
+System.CodeDom.Compiler
+System.Diagnostics
+System.ServiceModel.Channels
+WcfServiceLibrary.SampleHost
+System.Threading.Tasks
+CoreWCF.ConfigurationBased.Project
+WcfServiceLibrary.WindowsServiceHost
+System.ComponentModel
+System.Configuration.Install
+System.ServiceProcess
+System.Threading
+System.Collections
+
+===============
+DownloadedFiles
+===============
+corewcf.configurationbased.project.json
+system.servicemodel.channels.json
+project.all.json
+corewcf.servicelibrary.project.json
+corewcf.configuration.json
+corewcf.identitymodel.services.tokens.json
+corewcf.identitymodel.selectors.json
+corewcf.identitymodel.policy.json
+corewcf.identitymodel.claims.json
+corewcf.identitymodel.tokens.json
+corewcf.identitymodel.json
+corewcf.diagnostics.json
+corewcf.description.json
+corewcf.dispatcher.json
+corewcf.security.json
+corewcf.channels.json
+corewcf.json
+
+==============
+ProjectResults
+==============
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/wcf-service-sample/WcfServiceLibrary.SampleHost/WcfServiceLibrary.SampleHost.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+---------------------------
+Action packages:
+---------------------------
+CoreWCF.Primitives,*
+CoreWCF.Http,*
+CoreWCF.NetTcp,*
+Microsoft.AspNetCore,*
+CoreWCF.ConfigurationManager,*
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: Project
+Action Name: ArchiveFiles
+Action Value: BundleConfig.cs,FilterConfig.cs,RouteConfig.cs,WebApiConfig.cs,global.asax.cs,global.asax,AssemblyInfo.cs,packages.config
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Project
+Action Name: CreateNet8FolderHierarchy
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/wcf-service-sample/WcfServiceLibrary.SampleHost/Program.cs
+---------------------------
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: CoreWCF
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.ServiceModel
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/wcf-service-sample/WcfServiceLibrary.WindowsServiceHost/WcfServiceLibrary.WindowsServiceHost.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+---------------------------
+Action packages:
+---------------------------
+CoreWCF.Primitives,*
+CoreWCF.Http,*
+CoreWCF.NetTcp,*
+Microsoft.AspNetCore,*
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: Project
+Action Name: ArchiveFiles
+Action Value: BundleConfig.cs,FilterConfig.cs,RouteConfig.cs,WebApiConfig.cs,global.asax.cs,global.asax,AssemblyInfo.cs,packages.config
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/wcf-service-sample/WcfServiceLibrary.WindowsServiceHost/Service1.cs
+---------------------------
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: CoreWCF
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.ServiceModel
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/wcf-service-sample/WcfServiceLibrary/WcfServiceLibrary.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+---------------------------
+Action packages:
+---------------------------
+CoreWCF.Primitives,*
+CoreWCF.Http,*
+CoreWCF.NetTcp,*
+Microsoft.AspNetCore,*
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: Project
+Action Name: ArchiveFiles
+Action Value: BundleConfig.cs,FilterConfig.cs,RouteConfig.cs,WebApiConfig.cs,global.asax.cs,global.asax,AssemblyInfo.cs,packages.config
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/wcf-service-sample/WcfServiceLibrary/Service1.cs
+---------------------------
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: CoreWCF
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.ServiceModel
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/wcf-service-sample/WcfServiceLibrary/IService1.cs
+---------------------------
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: CoreWCF
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.ServiceModel
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/wcf-service-sample/WcfServiceLibrary.WindowsServiceHost/WcfServiceLibrary.WindowsServiceHost.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+---------------------------
+Action packages:
+---------------------------
+CoreWCF.Primitives,*
+CoreWCF.Http,*
+CoreWCF.NetTcp,*
+Microsoft.AspNetCore,*
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: Project
+Action Name: ArchiveFiles
+Action Value: BundleConfig.cs,FilterConfig.cs,RouteConfig.cs,WebApiConfig.cs,global.asax.cs,global.asax,AssemblyInfo.cs,packages.config
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/wcf-service-sample/WcfServiceLibrary.WindowsServiceHost/Service1.cs
+---------------------------
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: CoreWCF
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.ServiceModel
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/wcf-service-sample/WcfServiceLibrary/WcfServiceLibrary.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+---------------------------
+Action packages:
+---------------------------
+CoreWCF.Primitives,*
+CoreWCF.Http,*
+CoreWCF.NetTcp,*
+Microsoft.AspNetCore,*
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: Project
+Action Name: ArchiveFiles
+Action Value: BundleConfig.cs,FilterConfig.cs,RouteConfig.cs,WebApiConfig.cs,global.asax.cs,global.asax,AssemblyInfo.cs,packages.config
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/wcf-service-sample/WcfServiceLibrary/Service1.cs
+---------------------------
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: CoreWCF
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.ServiceModel
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/wcf-service-sample/WcfServiceLibrary/IService1.cs
+---------------------------
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: CoreWCF
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.ServiceModel
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/wcf-service-sample/WcfServiceLibrary.SampleHost/WcfServiceLibrary.SampleHost.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+---------------------------
+Action packages:
+---------------------------
+CoreWCF.Primitives,*
+CoreWCF.Http,*
+CoreWCF.NetTcp,*
+Microsoft.AspNetCore,*
+CoreWCF.ConfigurationManager,*
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: Project
+Action Name: ArchiveFiles
+Action Value: BundleConfig.cs,FilterConfig.cs,RouteConfig.cs,WebApiConfig.cs,global.asax.cs,global.asax,AssemblyInfo.cs,packages.config
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Project
+Action Name: CreateNet8FolderHierarchy
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/wcf-service-sample/WcfServiceLibrary.SampleHost/Program.cs
+---------------------------
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: CoreWCF
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.ServiceModel
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+
+===========
+BuildErrors
+===========
+
+
