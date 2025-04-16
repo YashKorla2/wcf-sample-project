@@ -1,5 +1,4 @@
 using System.ServiceProcess;
-using System.ServiceProcess.ServiceController;
 using System.Diagnostics;
 using System;
 using CoreWCF;

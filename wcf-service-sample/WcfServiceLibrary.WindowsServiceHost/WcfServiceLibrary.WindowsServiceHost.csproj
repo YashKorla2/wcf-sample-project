@@ -33,6 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="CoreWCF.Primitives" Version="*" />
+    <PackageReference Include="CoreWCF.Http" Version="*" />
+    <PackageReference Include="CoreWCF.NetTcp" Version="*" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="*" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="../WcfServiceLibrary/WcfServiceLibrary.csproj" />
   </ItemGroup>
   <ItemGroup>
@@ -45,11 +51,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="System.ServiceProcess.ServiceController" Version="9.0.4" />
-    <PackageReference Include="CoreWCF.Primitives" Version="*" />
-    <PackageReference Include="CoreWCF.Http" Version="*" />
-    <PackageReference Include="CoreWCF.NetTcp" Version="*" />
-    <PackageReference Include="Microsoft.AspNetCore" Version="*" />
     <PackageReference Include="System.Resources.Extensions" Version="*" />
   </ItemGroup>
 </Project>
