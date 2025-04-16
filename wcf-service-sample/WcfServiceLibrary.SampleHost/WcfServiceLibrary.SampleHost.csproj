@@ -34,13 +34,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="CoreWCF.Primitives" Version="*" />
-    <PackageReference Include="CoreWCF.Http" Version="*" />
-    <PackageReference Include="CoreWCF.NetTcp" Version="*" />
-    <PackageReference Include="Microsoft.AspNetCore" Version="*" />
-    <PackageReference Include="CoreWCF.ConfigurationManager" Version="*" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="../WcfServiceLibrary/WcfServiceLibrary.csproj" />
   </ItemGroup>
   <ItemGroup>
@@ -80,5 +73,13 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.ServiceModel.Primitives" Version="6.0.0" />
+    <PackageReference Include="CoreWCF.Primitives" Version="*" />
+    <PackageReference Include="CoreWCF.Http" Version="*" />
+    <PackageReference Include="CoreWCF.NetTcp" Version="*" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="*" />
+    <PackageReference Include="CoreWCF.ConfigurationManager" Version="*" />
   </ItemGroup>
 </Project>
