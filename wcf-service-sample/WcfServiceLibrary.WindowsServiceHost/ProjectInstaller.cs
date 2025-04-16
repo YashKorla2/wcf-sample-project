@@ -1,19 +1,21 @@
-﻿using System;
-using System.Collections;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Configuration.Install;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace WcfServiceLibrary.WindowsServiceHost
 {
-    [RunInstaller(true)]
-    public partial class ProjectInstaller : System.Configuration.Install.Installer
+    public class ProjectInstaller
     {
-        public ProjectInstaller()
-        {
-            InitializeComponent();
-        }
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureServices((hostContext, services) =>
+                {
+                    // Add your service configuration here
+                })
+                .UseWindowsService();
     }
 }
