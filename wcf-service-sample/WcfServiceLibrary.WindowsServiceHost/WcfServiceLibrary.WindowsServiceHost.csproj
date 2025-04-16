@@ -45,12 +45,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="CoreWCF.Primitives" Version="1.5.1" />
+    <PackageReference Include="CoreWCF.Http" Version="1.5.1" />
+    <PackageReference Include="CoreWCF.NetTcp" Version="1.5.1" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+    <PackageReference Include="System.Resources.Extensions" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="8.0.0" />
-    <PackageReference Include="CoreWCF.Primitives" Version="*" />
-    <PackageReference Include="CoreWCF.Http" Version="*" />
-    <PackageReference Include="CoreWCF.NetTcp" Version="*" />
-    <PackageReference Include="Microsoft.AspNetCore" Version="*" />
-    <PackageReference Include="System.Resources.Extensions" Version="*" />
   </ItemGroup>
 </Project>
