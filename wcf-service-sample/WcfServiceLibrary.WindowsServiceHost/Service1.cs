@@ -6,7 +6,7 @@ using CoreWCF;
 
 namespace WcfServiceLibrary.WindowsServiceHost
 {
-    public partial class Service1 : ServiceBase
+    public partial class Service1 : System.ServiceProcess.ServiceBase
     {
 
         ServiceHost serviceHost; 
